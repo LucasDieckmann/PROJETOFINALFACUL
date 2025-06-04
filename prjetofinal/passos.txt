@@ -1,0 +1,9 @@
+Etapa 1: Entendimento do Negócio.                    REALIZADO
+Etapa 2: Entendimento dos dados.                     REALIZADO
+Etapa 3: Preparação dos dados.                       REALIZADO
+Etapa 4: Desenvolvimento do estudo ou análise.       EM Desenvolvimento
+Etapa 5: Validação.                                  EM Desenvolvimento
+Etapa 6: Implantação do projeto e acompanhamento.    EM Desenvolvimento
+
+
+
