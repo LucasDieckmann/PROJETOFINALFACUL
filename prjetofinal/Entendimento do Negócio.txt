@@ -1,4 +1,6 @@
 Sobre o Dataset
-Os maiores guerreiros da história lutam para provar quem é o melhor em um teste épico de força e habilidade. Essas batalhas são temperadas com armas e dispositivos poderosos. Cada arma que você pega muda seu estilo de jogo.
-
-Brawlhalla é um jogo de luta de plataforma 2D gratuito que suporta até 8 jogadores locais ou online com cross-play completo para PC, Xbox One, Xbox Series X, PS5, PS4, iOS e Android.
+Os maiores guerreiros da história lutam para provar quem é o melhor em um teste épico de força e 
+habilidade. Essas batalhas são temperadas com armas e dispositivos poderosos. Cada arma que você pega muda seu estilo de jogo.
+Brawlhalla é um jogo de luta de plataforma 2D gratuito que suporta até 8 jogadores locais ou online
+ com cross-play completo para PC, Xbox One, Xbox Series X, PS5, PS4, iOS e Android.
+ 

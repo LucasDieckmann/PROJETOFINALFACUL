@@ -1,0 +1,66 @@
+id,personagens,preco,forca,defesa,destreza,agilidade,armaum,armadois
+1,Bodvar,900,6,5,6,5,Martelo,Espada
+2,Cassidy,2300,6,4,8,4,Pistolas,Martelo
+3,Orion,2300,4,6,6,6,Foguete,Lança
+4,Lord,2300,4,4,8,6,Foguete,Arma
+5,Gnash,2300,7,5,3,7,Martelo,Lança
+6,Queen,2300,7,8,4,3,Lança,Adagas
+7,Hatori,2300,4,4,6,8,Espada,Lança
+8,Sir Roland,2300,5,8,5,4,Foguete,Espada
+9,Scarlet,3900,8,5,5,4,Martelo,Foguete
+10,Thatch,3900,7,3,5,7,Espada,Arma
+11,Ada,3900,6,3,7,6,Arma,Lança
+12,Sentinel,2300,5,7,4,6,Martelo,Adagas
+13,Lucien,2300,3,6,5,8,Adagas,Arma
+14,Teros,3900,8,6,3,5,Machado,Martelo
+15,Bryann,900,5,5,5,7,Machado,Lança
+16,Asuri,3900,4,5,7,6,Adagas,Espada
+17,Barraza,3900,6,8,4,4,Machado,Arma
+18,Ember,900,6,3,6,7,Arco,Adagas
+19,Azoth,5400,7,6,5,4,Arco,Machado
+20,Koji,5400,5,4,8,5,Arco,Espada
+21,Ulgrim,5400,6,7,3,6,Machado,Foguete
+22,Diana,5400,5,5,6,6,Arco,Arma
+23,Jhala,5400,7,3,7,5,Machado,Espada
+24,Kor,5400,6,7,5,4,Luva,Martelo
+25,Wu Shang,5400,5,5,7,5,Luva,Lança
+26,Val,5400,4,6,5,7,Luva,Espada
+27,Ragnir,5400,5,6,6,5,Adagas,Machado
+28,Cross,5400,7,6,4,5,Arma,Luva
+29,Mirage,5400,7,4,6,5,Foice,Lança
+30,Nix,5400,4,7,5,6,Foice,Arma
+31,Mordex,5400,5,5,4,7,Foice,Luva
+32,Yumiko,5400,4,4,7,7,Arco,Martelo
+33,Artemis,5400,5,4,5,7,Foguete,Foice
+34,Caspian,5400,7,4,5,6,Luva,Adagas
+35,Sidra,5400,6,6,4,6,Canhão,Espada
+36,Xull,5400,9,5,4,4,Canhão,Machado
+37,Kaya,5400,4,7,4,7,Lança,Arco
+38,Isaiah,5400,5,7,6,4,Canhão,Arma
+39,Iiro,5400,5,3,7,7,Espada,Foice
+40,Lin Fei,5400,3,4,8,7,Adagas,Canhão
+41,Zariel,5400,7,7,4,4,Luva,Arco
+42,Rayman,5400,5,6,5,6,Luva,Machado
+43,Dusk,5400,6,4,7,5,Lança,Orbe
+44,Fait,5400,7,4,4,7,Foice,Orbe
+45,Thor,5400,6,6,4,6,Martelo,Orbe
+46,Petra,5400,9,4,4,6,Luva,Orbe
+47,Vector,5400,5,6,4,7,Foguete,Arco
+48,Volkov,5400,4,6,8,4,Machado,Foice
+49,Onyx,5400,5,8,4,5,Luva,Canhão
+50,Jaeyun,5400,6,5,5,6,Espada,Espadão
+51,Mako,5400,6,4,4,8,Adagas,Espadão
+52,Magnar,5400,5,9,4,4,Martelo,Espadão
+53,Reno,5400,4,6,7,5,Arma,Orbe
+54,Munin,5400,5,4,6,7,Arco,Foice
+55,Arcadia,5400,7,4,7,4,Lança,Espadão
+56,Ezio,5400,5,4,7,6,Espada,Orbe
+57,Tezca,5400,7,5,5,5,Bota,Luva
+58,Thea,5400,4,3,6,9,Bota,Foguete
+59,Red Raptor,5400,6,4,6,6,Bota,Orbe
+60,Loki,5400,4,5,8,5,Adagas,Foice
+61,Seven,5400,7,8,3,4,Lança,Canhão
+62,Vivi,5400,6,4,5,7,Bota,Arma
+63,Imugi,5400,8,8,3,3,Machado,Espadão
+64,King Zuva,5400,8,6,4,4,Martelo,Bota
+65,Priya,7400,4,5,6,7,Chakram,Espada

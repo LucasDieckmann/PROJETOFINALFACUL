@@ -13,5 +13,6 @@ def dfj(df):
 # Exemplo de uso
 conn = create_engine('sqlite:///brawlhalla.db').connect()
 df = pd.read_sql("SELECT * FROM brawlhalla", conn)
-json_data = dfj(df)
-print(json_data)
+print(df)
+#json_data = dfj(df)
+#print(json_data)

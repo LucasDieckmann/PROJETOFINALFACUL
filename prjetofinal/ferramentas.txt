@@ -1,0 +1,8 @@
+ferramentas
+from sqlalchemy import create_engine
+import tkinter as tk
+import pandas as pd
+import sqlite3
+
+Linguagens 
+Python + SQL 

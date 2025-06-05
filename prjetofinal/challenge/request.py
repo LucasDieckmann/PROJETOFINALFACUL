@@ -14,3 +14,4 @@ def tj(perso, conexao):
 conn = create_engine('sqlite:///brawlhalla.db').connect()
 json_data = tj('brawlhalla', conn)
 print(json_data)
+
