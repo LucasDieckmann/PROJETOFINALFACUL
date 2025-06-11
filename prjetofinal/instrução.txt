@@ -2,7 +2,7 @@ Comit
 
 git remote -v
 git add .
-git commit -m "Primeiro commit do projeto Brawlhalla"
+git commit -m " commit do projeto Brawlhalla"
 
 git push -u origin main
 git push -u origin master

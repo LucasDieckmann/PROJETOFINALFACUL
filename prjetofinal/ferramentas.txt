@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 import tkinter as tk
 import pandas as pd
 import sqlite3
+from PIL import Image, ImageTk
 
 Linguagens 
 Python + SQL 
