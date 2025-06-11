@@ -8,5 +8,3 @@ df = pd.read_sql("""
                   """, conn)
 
 print(df)
-
-
