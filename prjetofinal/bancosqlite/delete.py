@@ -1,6 +1,6 @@
 import os
 
-db_path = "braw.db"
+db_path = "brawlhalla.db"
 
 # Fecha conexões pendentes antes de remover
 try:

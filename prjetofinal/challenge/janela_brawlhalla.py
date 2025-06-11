@@ -19,7 +19,7 @@ def mostrar_imagem(nome_personagem):
 
     if os.path.exists(caminho_completo):
         imagem = Image.open(caminho_completo)
-        imagem = imagem.resize((600, 300))  
+        imagem = imagem.resize((500, 300))  
         imagem_tk = ImageTk.PhotoImage(imagem)
         label_imagem.config(image=imagem_tk)
         label_imagem.image = imagem_tk  # Mantém referência para não apagar
@@ -45,10 +45,13 @@ def pesquisar(event):
         if pesquisa in linha.lower():
             lista_tabelas.insert(tk.END, linha)
 
+
+
+
 # Criar janela principal
 pagina = tk.Tk()
 pagina.title("Brawlhalla - Visualizador de Personagens")
-pagina.geometry('1000x600')
+pagina.geometry('1920x1080')
 pagina.configure(bg='#1a1a2e')
 
 # Título
@@ -69,6 +72,8 @@ lista_tabelas.bind("<<ListboxSelect>>", lambda e: exibir_imagem_selecionada())
 # Área da imagem
 label_imagem = tk.Label(pagina, bg='#1a1a2e')
 label_imagem.pack(pady=10)
+
+
 
 # Preencher a lista inicialmente
 for _, row in conteudo_tabela.iterrows():
