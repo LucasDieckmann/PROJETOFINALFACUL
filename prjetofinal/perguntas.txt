@@ -50,7 +50,7 @@ Média = 307 ÷ 52 = ≈ 5.90
 
  Média de força ≈ 5.90 (arredondado para duas casas decimais).
 
-🔧 8. Quais personagens têm exatamente: força = 7 e defesa = 4?
+8. Quais personagens têm exatamente: força = 7 e defesa = 4?
 Vamos filtrar com esses dois critérios:
 
 Mirage – força 7, defesa 4 
