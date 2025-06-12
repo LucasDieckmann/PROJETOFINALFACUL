@@ -1,0 +1,90 @@
+
+ 1. Qual personagem tem o maior custo (preço)?
+ Priya – 7400 de custo.
+
+ 2. Qual personagem tem a maior força?
+ Xull com 9 de força.
+
+ 3. Quais personagens têm defesa igual a 8?
+ Queen Nai, Sir Roland, Barraza, Onyx, Seven, Imugi.
+ Total: 6 personagens com defesa = 8.
+
+
+ 4. Qual personagem tem a maior agilidade?
+ Thea – 9 de agilidade.
+
+ 5. Quais personagens possuem destreza igual ou maior que 7?
+Vamos filtrar por destreza >= 7:
+Cassidy – 8
+Queen Nai – 8
+Lucien – 8
+Lin Fei – 8
+Volkov – 8
+Koji – 8
+Ezio – 7
+ Resultado final (destreza ≥ 7):
+
+Cassidy, Queen Nai, Lucien, Koji, Volkov, Lin Fei, Ezio
+
+6. Quantos personagens possuem a arma "Foice"?
+Vamos contar todos que têm Foice como arma primária ou secundária:
+
+Mirage
+Nix
+Mordex
+Artemis
+Volkov
+Fait
+Loki
+Munin
+ Total: 8 personagens com Foice.
+
+ 7. Qual é a média de força dos personagens com preço 5400?
+Personagens com preço = 5400: há 52 deles.
+
+Vamos somar a força deles:
+
+Soma total da força dos 52 personagens: 307
+
+Média = 307 ÷ 52 = ≈ 5.90
+
+ Média de força ≈ 5.90 (arredondado para duas casas decimais).
+
+8. Quais personagens têm exatamente: força = 7 e defesa = 4?
+Vamos filtrar com esses dois critérios:
+
+Mirage – força 7, defesa 4 
+Fait – força 7, defesa 4 
+Arcadia – força 7, defesa 4 
+
+Resultado:
+Mirage, Fait, Arcadia
+
+9. Quantos personagens custam menos que 3000?
+Na lista, personagens com preço < 3000:
+
+Bodvar – 900
+Bryann – 900
+Ember – 900
+Cassidy, Orion, Lord Vraxx, Gnash, Queen Nai, Hattori, Sir Roland, Sentinel, Lucien – 2300
+Total: 13 personagens custam menos de 3000.
+
+10. Qual é a arma mais comum entre todos os personagens?
+Vamos contar as ocorrências de cada arma (armaum e armadois):
+ Resultado (arma mais usada):
+Espada – 13 vezes
+Lança – 11
+Arma – 11
+Martelo – 10
+Machado – 10
+Foice – 10
+Adagas – 8
+Arco – 8
+Luva – 8
+Canhão – 6
+Orbe – 6
+Bota – 5
+Foguete – 6
+Espadão – 5
+Chakram – 1
+ Mais comum: Espada (13 ocorrências)

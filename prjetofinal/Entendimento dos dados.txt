@@ -1,3 +1,0 @@
-legend,strength,dexterity,defense,speed,Weapon_1,Weapon_2
-
-nome, força, destresa, defesa, velocidade, primeira arma e segunda arma
