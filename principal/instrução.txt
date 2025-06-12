@@ -1,6 +1,6 @@
 Comit 
 
-git remote -v
+git rmeote -v
 git add .
 git commit -m " commit do projeto Brawlhalla"
 
