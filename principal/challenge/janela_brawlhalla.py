@@ -4,6 +4,20 @@ from PIL import Image, ImageTk
 import pandas as pd
 import sqlite3
 import os
+#perguntas
+#______________________________________________________________
+# 1. Qual personagem tem o maior custo (preço)?                |
+# 2. Qual personagem tem a maior força?                        |
+# 3. Quais personagens têm defesa igual a 8?                   |  
+# 4. Qual personagem tem a maior agilidade?                    |
+# 5. Quais personagens possuem destreza igual ou maior que 7?  |
+# 6. Quantos personagens possuem a arma "Foice"?               |
+# 7. Qual é a média de força dos personagens com preço 5400?   |
+# 8. Quais personagens têm exatamente: força = 7 e defesa = 4? | 
+# 9. Quantos personagens custam menos que 3000?                |
+# 10. Qual é a arma mais comum entre todos os personagens?     |
+#______________________________________________________________|
+
 
 # Caminho correto da pasta com as imagens
 CAMINHO_IMAGENS = r"C:\Users\BONIX\Desktop\projetofinal\principal\imagens"
@@ -12,6 +26,90 @@ CAMINHO_IMAGENS = r"C:\Users\BONIX\Desktop\projetofinal\principal\imagens"
 conn = sqlite3.connect('brawlhalla.db')
 conteudo_tabela = pd.read_sql("SELECT * FROM brawlhalla", conn)
 
+#talvez funcione 
+def pergunta1(df_max_preco):
+    df_max_preco = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    ORDER BY preco DESC
+    LIMIT 1
+    """, conn);
+
+def pergunta2(fopergunta2):
+    conn = sqlite3.connect('brawlhalla.db')
+    forca = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    ORDER BY forca DESC
+    LIMIT 1
+    """, conn)
+
+def pergunta3(defesa):
+    conn = sqlite3.connect('brawlhalla.db')
+    defesa = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    WHERE defesa = 8
+""", conn)
+
+def pergunta4(agilidade):
+    conn = sqlite3.connect('brawlhalla.db')
+    agilidade = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    ORDER BY agilidade DESC
+    LIMIT 1
+""", conn)
+    
+def pergunta5(destreza):
+    conn = sqlite3.connect('brawlhalla.db')
+    destreza = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    WHERE destreza >= 7
+""", conn)
+
+def pergunta6(arma):
+    conn = sqlite3.connect('brawlhalla.db')
+    arma = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    WHERE LOWER(armaum) = 'foice' OR LOWER(armadois) = 'foice'
+""", conn)
+
+def pergunta7(media_forca):
+    conn = sqlite3.connect('brawlhalla.db')
+    inicio = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    WHERE preco = 5400 
+""", conn)
+    media_forca = inicio['forca'].mean()
+
+def pergunta8(foredef):
+    conn = sqlite3.connect('brawlhalla.db')
+    foredef = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    WHERE forca = 7 AND defesa = 4
+""", conn)
+
+def pergunta9(foredef):
+    conn = sqlite3.connect('brawlhalla.db')
+    precomenor = pd.read_sql("""
+    SELECT * FROM brawlhalla
+    WHERE preco < 3000
+""", conn)
+
+def pergunta9(foredef):
+    conn = sqlite3.connect('brawlhalla.db')
+
+    comum = pd.read_sql("""
+SELECT arma, COUNT(*) AS total
+FROM (
+    SELECT armaum AS arma FROM brawlhalla
+    UNION ALL
+    SELECT armadois AS arma FROM brawlhalla
+)
+GROUP BY arma
+ORDER BY total DESC
+LIMIT 1;
+        
+""", conn)
+    
+    
 # Função para exibir a imagem
 def mostrar_imagem(nome_personagem):
     nome_arquivo = f"{nome_personagem}.png"

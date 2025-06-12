@@ -5,7 +5,7 @@ import sqlite3
 # Conectar ao banco de dados
 conn = sqlite3.connect('brawlhalla.db')
 
-precomenor = pd.read_sql("""
+comum = pd.read_sql("""
 SELECT arma, COUNT(*) AS total
 FROM (
     SELECT armaum AS arma FROM brawlhalla
@@ -18,4 +18,4 @@ LIMIT 1;
         
 """, conn)
 
-print(precomenor)
+print(comum)

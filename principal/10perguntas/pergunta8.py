@@ -10,6 +10,4 @@ foredef = pd.read_sql("""
     WHERE forca = 7 AND defesa = 4
 """, conn)
 
-conn.close()
-
 print(foredef)
